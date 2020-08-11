@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="/assets/styles/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="/assets/styles/examples.css" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="/assets/styles/salesforce-lightning-design-system.css"
+		/>
+
+		<title>MQ</title>
+	</head>
+	<body>
+		<div id="fullpage">
+			<div class="section " id="section0">
+			<img style="height:100%;width:100%;" src="/assets/images/slides/s1.png" />
+			</div>
+			<div class="section" id="section1">
+				<img style="height:100%;width:100%;" src="/assets/images/slides/s2.png" />
+
+			</div>
+			<div class="section" id="section2">
+				<img style="height:100%;width:100%;" src="/assets/images/slides/s3.png" />
+
+			</div>
+			<div class="section" id="section3">
+				<img style="height:100%;width:100%;" src="/assets/images/slides/s4.png" />
+
+			</div>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.js"></script>
+	
+		<script type="text/javascript" src="assets/scripts/fullpage.js"></script>
+<script type="text/javascript" src="/assets/scripts/examples.js"></script>
+
+<script type="text/javascript">
+	var myFullpage = new fullpage('#fullpage', {
+		anchors: ['1', '2', '3', '4'],
+		sectionsColor: ['#496644', '#1BBC9B', '#7E8F7C', '#7E8F7C'],
+		navigation: true,
+		navigationPosition: 'right',
+		navigationTooltips: ['Home', 'Customer Expereince', 'Solution Engineer', 'Engagement Framework']
+});
+</script>
+	</body>
+</html>
