@@ -3,7 +3,6 @@
 	<head>
 		<!-- Required meta tags -->
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 		<link rel="stylesheet" rev="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css" type="text/css" media="all" />
 
@@ -13,6 +12,7 @@
 		<link rel="stylesheet" href="/assets/styles/jquery.ferro.ferroMenu.css" />
 		<link rel="stylesheet" href="/assets/styles/demo2.css" />
 		<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.css" />
+		
 		<link
 			href="http://fonts.googleapis.com/css?family=Lato:300,400"
 			rel="stylesheet"
@@ -84,7 +84,11 @@
 		<script type="text/javascript" src="/assets/scripts/examples.js"></script>
 		<script src="/assets/scripts/jquery.ferro.ferroMenu-1.2.3.min.js" type="text/javascript"></script>
 		<script src="/assets/scripts/jquery.transit.min.js" type="text/javascript"></script>
+		<script src="/assets/scripts/advisor.js" type="text/javascript"></script>
+
 		<script type="text/javascript">
+			screen.orientation.type = 'landscape-primary';
+			screen.orientation.lock("landscape-primary");
 			var currentIndex = 0;
 			var currentId = "camera";
 			var dragStarted = false;
@@ -95,7 +99,8 @@
 				});
 
 				$("#back").on("click",function(){
-					$("#video").css("display","none");
+					$("#advisor").css("display","none");
+					$("#gif").css("display","none");
 					$("#video").css("display","none");
 					$("#myModal").css("display","none");
 
@@ -116,14 +121,14 @@
 					
 				});
 				$("#a2").on("click",function(){
-				
+					$("#gif").css("display","block");
 					$("#myModal").css("display","block");
 					$(".ferromenu-controller").css("display","none");
 					$("#hiddendiv").attr("src","/assets/images/slides/thinkvisually.png");
 					
 				});
 				$("#a3").on("click",function(){
-					$("#gif").css("display","block");
+					$("#advisor").css("display","block");
 					$("#myModal").css("display","block");
 					$(".ferromenu-controller").css("display","none");
 					$("#hiddendiv").attr("src","/assets/images/slides/trustedadvisor.png");
@@ -186,7 +191,7 @@
 					delay 		: 50,
 					rotation 	: 720,
 					margin		: 140,
-					opened		: false,
+					opened		: true,
 					radius    : 210,
 					drag      : false
 				});
@@ -308,6 +313,13 @@
 					style=" width: 100%;"
 					src="/assets/images/slides/s2.png"
 				/>
+				<div id="link" style="position: absolute;
+				top: 69%;
+				left: 35%;
+				transform: translate(-50%, -50%);
+				-ms-transform: translate(-50%, -50%);">
+				<a href="/result" target="_blank">Click here to view</a>
+				</div>
 			</div>
 			<div class="section" id="section2">
 				<img
@@ -315,14 +327,9 @@
 					src="/assets/images/slides/s3.png"
 
 				/>
+				
 			</div>
-			<div class="section" id="section21">
-				<img
-					style="width: 100%;"
-					src="/assets/images/slides/s5.png"
-
-				/>
-			</div>
+			
 			<div class="section" id="section22">
 				<img
 					style="width: 100%;"
@@ -337,63 +344,36 @@
 
 				/>
 			</div>
-			<div class="section" id="section24">
-				<img
-					style="width: 100%;"
-					src="/assets/images/slides/s8.png"
-
-				/>
-			</div>
+			
 			
 			<div class="section" id="section3">
 			
 				<section id="content">
 					<div id="overlay"></div>
 					<ul id="nav">
-						<li id="a1"><img style="height:60px;width:60px;border-radius:50%;" src="/assets/images/slides/s.jpg" /></li>
-						<li id="a2">><img style="height:60px;width:60px;border-radius:50%;" src="/assets/images/slides/v.jpg" /></li>
-						<li id="a3"><img style="height:60px;width:60px;border-radius:50%;" src="/assets/images/slides/t.jpg" /></li>
-						<li id="a4"><img style="height:60px;width:60px;border-radius:50%;" src="/assets/images/slides/h.jpg" /></li>
-						<li id="a5"><img style="height:60px;width:60px;border-radius:50%;" src="/assets/images/slides/m.jpg" /></li>
-						<li id="a6"><img style="height:60px;width:60px;border-radius:50%;" src="/assets/images/slides/c.jpg" /></li>
-	
+						<li id="a3"><img style="height:60px;width:60px;border-radius:50%;" src="/assets/images/slides/t.jpg" /><br/>	<span style="color:black;font-weight:bold">Trusted Advisor</span></li>
+
+						<li id="a4"><img style="height:60px;width:60px;border-radius:50%;" src="/assets/images/slides/h.jpg" /><br/>	<span style="color:black;font-weight:bold">More Human</span></li>
+
+						<li id="a1"><img style="height:60px;width:60px;border-radius:50%;" src="/assets/images/slides/s.jpg" />
+							<br/>	<span style="color:black;font-weight:bold">Storytelling</span>
+							</li>
+							<li id="a6"><img style="height:60px;width:60px;border-radius:50%;" src="/assets/images/slides/c.jpg" /><br/>	<span style="color:black;font-weight:bold">Connections</span></li>
+
+						<li id="a5"><img style="height:60px;width:60px;border-radius:50%;" src="/assets/images/slides/i.jpg" /><br/>	<span style="color:black;font-weight:bold">Influencers</span></li>
+						<li id="a2">><img style="height:60px;width:60px;border-radius:50%;" src="/assets/images/slides/v.jpg" /><br/>	<span style="color:black;font-weight:bold">Visual Thinking</span></li>
+
 					</ul>
 					<article id="engagement" class="active" style="height:100%;width:100%" >
 					
 						<img id="s4img"
 						style=" width: 100%;"
 						src="/assets/images/slides/s4.png" />
-					
-				
-				
 			
 					</article>
 					
 				
-					<article id="mapmarker" class="off">
-						<img
-						style="height: 100%; width: 100%;"
-						src="/assets/images/slides/s4.png"
-					/>
-					</article>
-					<article id="music" class="off">
-						<img
-						style="height: 100%; width: 100%;"
-						src="/assets/images/slides/s4.png"
-					/>
-					</article>
-					<article id="commentalt" class="off">
-						<img
-						style="height: 100%; width: 100%;"
-						src="/assets/images/slides/s4.png"
-					/>
-					</article>
-					<article id="moon" class="off">
-						<img
-						style="height: 100%; width: 100%;"
-						src="/assets/images/slides/s4.png"
-					/>
-					</article>
+					
 				</section>
 			</div>
 			<div class="section" id="section5">
@@ -426,12 +406,74 @@
 			</div>
 
 			<div id="gif" style="position: absolute;
-				top: 63%;
-				left: 20%;
+				top: 69%;
+				left: 35%;
 				transform: translate(-50%, -50%);
 				-ms-transform: translate(-50%, -50%);display:none">
-				<img src="/assets/images/slides/GIF_Shouting.gif" />
+				<img style="width:950px;" src="/assets/images/slides/GIF_Shouting.gif" />
 				</div>
+			</div>
+
+			<div id="advisor" style="position: absolute;
+			top: 49%;
+			left: 35%;
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);display:none">
+				<center> <div id="trustedAdvisorWhats">What's Expected</div> </center>
+  
+				<?xml version="1.0" encoding="UTF-8"?>
+				<svg width="650px" height="650px" viewBox="0 0 1150 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<title>Artboard</title>
+						<g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g id="Group" transform="translate(182.000000, 218.000000)">
+										<circle id="Oval1" fill-opacity="0.428704108" fill="#46BFA1" cx="386.5" cy="348.5" r="216.5"></circle>
+										<text id="Useful" font-family="SalesforceSans-Bold, Salesforce Sans" font-size="38" font-weight="bold" fill="#FFFFFF">
+												<tspan x="328.531" y="363">Useful</tspan>
+										</text>
+										<circle id="Oval2" fill-opacity="0.428704108" fill="#46BFA1" cx="620.5" cy="170.5" r="148.5"></circle>
+										<text id="Inspiring" font-family="SalesforceSans-Bold, Salesforce Sans" font-size="30" font-weight="bold" fill="#FFFFFF">
+												<tspan x="557.65" y="175">Inspiring</tspan>
+										</text>
+										<circle id="Oval3" fill-opacity="0.428704108" fill="#46BFA1" cx="219" cy="136" r="136"></circle>
+										<text id="Participatory" font-family="SalesforceSans-Bold, Salesforce Sans" font-size="30" font-weight="bold" fill="#FFFFFF">
+												<tspan x="126.51" y="138">Participatory</tspan>
+										</text>
+										<circle id="Oval4" fill-opacity="0.428704108" fill="#46BFA1" cx="672.5" cy="439.5" r="114.5"></circle>
+										<text id="Beautiful" font-family="SalesforceSans-Bold, Salesforce Sans" font-size="30" font-weight="bold" fill="#FFFFFF">
+												<tspan x="611.025" y="457">Beautiful</tspan>
+										</text>
+										<circle id="Oval5" fill-opacity="0.428704108" fill="#46BFA1" cx="85.5" cy="322.5" r="85.5"></circle>
+										<text id="Funny" font-family="SalesforceSans-Bold, Salesforce Sans" font-size="30" font-weight="bold" fill="#FFFFFF">
+												<tspan x="41.78" y="330">Funny</tspan>
+										</text>
+								</g>
+						</g>
+				</svg>
+					
+				<div class="row">
+					<div class="column left" style="width: 25%;
+					float: left;">
+					
+						<img src="/assets/images/slides/rational@9x.png" style="height:50px;width:50px;" class="sliderImage"></img>
+						<p style="font-size:12px;color:black;">Rational</p>
+					
+					</div>
+					<div class="column middle" style="    float: left;
+					padding-top: 30px;">
+						<div class="slidecontainer" style="    width: 350px;"
+						
+						>
+					<input type="range" min="1" max="50" value="1" class="slider" id="myRange" style="    width: 350px;">
+				</div>
+					</div>
+					<div class="column right" style="    float: right;" >
+					
+						<img src="/assets/images/slides/emotional@9x.png" style="height:50px;width:50px;"  class="sliderImage"></img>
+						<p style="font-size:12px;color:black">Emotional</p>
+						
+					</div>
+				</div>
+				
 			</div>
 		
 		</div>
@@ -439,7 +481,7 @@
 		<script type="text/javascript">
 			var myFullpage = new fullpage('#fullpage', {
 				anchors: ['1', '2', '3', '4','5','6','7','8'],
-				sectionsColor: ['#496644', '#EED7B8', '#6FD7F0', '#F4F4F4','#F4F4F4','#F4F4F4','#F4F4F4','#F4F4F4'],
+				sectionsColor: ['#496644', '#EED7B8', '#F4F4F4','#F4F4F4','#F4F4F4','#F4F4F4','#F4F4F4'],
 				navigation: true,
 				navigationPosition: 'right',
 				navigationTooltips: [
@@ -452,5 +494,7 @@
 
 		
 		</script>
+		<script src="/assets/scripts/advisor.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="/assets/fonts/font-awesome/css/advisor.css" />
 	</body>
 </html>
