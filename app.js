@@ -19,6 +19,9 @@ app.get('/', function (req, res) {
 app.get('/result', function (req, res) {
 	res.sendFile(path.join(__dirname + '/result.html'));
 });
+app.get('/nosupport', function (req, res) {
+	res.sendFile(path.join(__dirname + '/nosupport.html'));
+});
 
 app.listen(port, () => console.log(`listening on port ${port}!`)); 
 
