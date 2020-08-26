@@ -253,6 +253,50 @@ h2:after{
   color:#fff;
 }
 
+/* ----------------------------------------------- */
+/* MEALS */
+/* ----------------------------------------------- */
+
+.section-team {
+  padding: 0;
+  margin-bottom:20px;
+}
+
+.team-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.team-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.team-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.team-photo img {
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+  -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.team-photo img:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
 
 
 /* ------- Footer ------- */
