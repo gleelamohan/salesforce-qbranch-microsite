@@ -61,13 +61,13 @@ section{
 /* ---------- HEADINGS -------------- */
 
 header {
-  background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/hero.png);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.png );
   background-size: cover;
   background-position: center;
   height: 100vh;
+  background-attachment: fixed;
 }
-
-
 
 h1,
 h2,
@@ -158,6 +158,46 @@ h2:after{
 .main-nav li a:active{
   border-bottom: 2px solid #e67622;
 }
+
+/* Mobile navi */
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+  background-color: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 2px 2px #efefef;
+}
+
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: #fff;
+}
+
+.ion-navicon-round{
+  display: none;
+}
+/* Sticky navi */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 2px 2px #efefef;
+  z-index: 9999;
+}
+
+.sticky .main-nav { margin-top: 18px; }
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 16px 0;
+  color: #555;
+}
+
+.sticky .logo { display: none; }
+.sticky .logo-black { display: block; }
 
 /* ---------------- BUTTONS ----------------*/
 .btn:link,
