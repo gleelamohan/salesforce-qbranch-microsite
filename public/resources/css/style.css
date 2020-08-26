@@ -145,7 +145,7 @@ h2:after{
 
 .main-nav li a:link,
 .main-nav li a:visited{
-  padding: 8px 0px;
+  padding: 8px 0px ;
   text-decoration: none;
   color: #fff;
   font-size: 70%;
@@ -177,6 +177,10 @@ h2:after{
 .ion-navicon-round{
   display: none;
 }
+
+.logo-black { 
+  display:none;
+}
 /* Sticky navi */
 .sticky {
   position: fixed;
@@ -192,12 +196,18 @@ h2:after{
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
-  padding: 16px 0;
+  padding: 15px 0;
   color: #555;
 }
 
 .sticky .logo { display: none; }
-.sticky .logo-black { display: block; }
+.sticky .logo-black { 
+  display: block; 
+  height: 45px;
+  width: auto;
+  float:left;
+  margin: 5px 0;
+}
 
 /* ---------------- BUTTONS ----------------*/
 .btn:link,
