@@ -127,7 +127,7 @@ h2:after{
 .group {
   position: absolute;
   width: 1140px;
-  top:50%;
+  top:43%;
   left:65%;
   transform: translate(-50%, -50%);
 }
