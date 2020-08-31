@@ -33,7 +33,7 @@ body {
 /* -------------------------------- */
 
 .row {
-  max-width: 1140px;
+  max-width: 1640px;
   margin: 0 auto;
 }
 
@@ -61,7 +61,6 @@ section{
 /* ---------- HEADINGS -------------- */
 
 header {
-  background-image: url(img/Hero.jpg);
   background-image: url(img/Hero.jpg );
   background-size: cover;
   background-position: center;
@@ -120,13 +119,25 @@ h2:after{
 .hero-text-box {
   position: absolute;
   width: 1140px;
-  top:50%;
-  left:50%;
+  top:90%;
+  left:75%;
   transform: translate(-50%, -50%);
 }
 
+.group {
+  position: absolute;
+  width: 1140px;
+  top:50%;
+  left:65%;
+  transform: translate(-50%, -50%);
+}
+
+.group-logo {
+  height:200px;
+}
+
 .logo {
-  height: 70px;
+  height: 40px;
   width: auto;
   float:left;
   margin-top: 20px;
@@ -156,7 +167,7 @@ h2:after{
 
 .main-nav li a:hover,
 .main-nav li a:active{
-  border-bottom: 2px solid #e67622;
+  border-bottom: 2px solid #0B1F52;
 }
 
 /* Mobile navi */
@@ -224,32 +235,32 @@ h2:after{
 .btn-full:link,
 .btn-full:visited{
   color:#fff;
-  background-color: #e67622;
-  border: 1px solid #e67622;
+  background-color: #0B1F52;
+  border: 1px solid #0B1F52;
   margin-right: 15px;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited{
-  border: 1px solid  #e67622;
-  color:#e67622;
+  border: 1px solid  #0B1F52;
+  color:#0B1F52;
 }
 
 .btn:hover,
 .btn:active {
-  background-color:#cf6d17;
+  background-color:#133385;
   color:#fff;
 }
 
 .btn-full:hover,
 .btn-full:active{
-  background-color:#cf6d17;
+  background-color:#133385;
   color:#fff;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active{
-  background-color:#cf6d17;
+  background-color:#133385;
   color:#fff;
 }
 
