@@ -34,6 +34,7 @@ body {
 
 .row {
   max-width: 1640px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
@@ -118,9 +119,17 @@ h2:after{
 
 .hero-text-box {
   position: absolute;
-  width: 1140px;
+  width: 940px;
   top:90%;
   left:75%;
+  transform: translate(-50%, -50%);
+}
+
+.group-mobile{
+  display: none;
+  position: absolute;
+  top:40%;
+  left:54%;
   transform: translate(-50%, -50%);
 }
 
@@ -177,7 +186,7 @@ h2:after{
   cursor: pointer;
   display: none;
   background-color: rgba(255, 255, 255, 0.98);
-  box-shadow: 0 2px 2px #efefef;
+ 
 }
 
 .mobile-nav-icon i {

@@ -1,11 +1,15 @@
 /* Big tablet to 1200px (widths smaller taht the 1140px row) */
 @media only screen and (max-width: 1200px) {
+
   .hero-text-box {
       width: 100%;
       padding: 0 2%;
   }
   
   .row { padding: 0 2%; }
+
+  
+
 }
 
 
@@ -13,6 +17,11 @@
 @media only screen and (max-width: 1023px) {
   body { font-size: 18px; }
   section { padding: 60px 0; }
+  .group {
+    left:75%;
+}
+
+  
   
   .long-copy {
       width: 80%;
@@ -48,7 +57,13 @@
 @media only screen and (max-width: 767px) {
   body { font-size: 16px; }
   section { padding: 30px 0; }
-  
+  .group{
+    display:none;
+}
+
+.group-mobile{
+    display:block;
+}
   .row,
   .hero-text-box { padding: 0 4%; }
   .col { 
