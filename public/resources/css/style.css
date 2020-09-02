@@ -90,17 +90,21 @@ h2 {
   text-align: center;
   margin-bottom: 30px;
   text-transform: uppercase;
+  color:#0C2252;
+  font-family:papyrus;
 }
 
 h3{
   font-size: 110%;
   margin-bottom: 15px;
+  color:#0C2252;
+  font-weight: 400;
 }
 
 h2:after{
   display: block;
   height: 2px;
-  background-color:#e67622;
+  background-color:#BB253D;
   content: " ";
   width:100px;
   margin: 0 auto;
@@ -367,3 +371,48 @@ footer p {
   text-align: center;
   margin-top: 20px;
 }
+
+
+
+/* honeycomb */
+
+.image-gallery-container ul{
+  list-style: none;
+  display:table;
+  margin:auto
+}
+
+.image-gallery-container ul:not(:firstchild){
+  margin-top: -70px;
+}
+
+.image-gallery-container ul li{
+  float:left
+}
+
+.image-gallery-container ul li .bg-image{
+  margin:15px;
+  width:80px;
+  height:120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+ clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.image-gallery-container ul {
+  animation:r 4s forwards;
+} @keyframes r {
+  from {transform:rotate(180deg)}
+  to {transform:rotate(0)}
+}
+
+.image-gallery-container li {
+  animation:ir 4s forwards;
+} @keyframes ir {
+  from {transform:rotate(-360deg)}
+  to {transform:rotate(0)}
+}
+
+
