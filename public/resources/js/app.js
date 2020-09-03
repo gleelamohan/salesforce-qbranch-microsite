@@ -14,59 +14,59 @@ $(document).ready(function () {
 
 	$('.bg-image').on('mouseover', function (e) {
 		
-		$(this).addClass('hide');
+		
 		$(this).siblings("div").removeClass('hide');
-
+		$(this).addClass('hide');
 		var name = $(this).attr('id');
     var message = '';
 		switch(name){
 			case 'aravind': 
-			message = '<p><b>Agent V :</b> ARAVIND BABU B </p> <br/><p>Demo Engineer</p><br/><p>  He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and lead developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+			message = '<p><b>Agent V :</b> ARAVIND BABU B </p> <br/><p>Demo Engineer</p><br/><p>  He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
 			break;
 			case 'arjun': 
-			message = '<p><b>Agent V :</b> ARJUN S S </p> <br/><p>Lead Design Engineer</p><br/><p>Arjun is an Lead developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and lead developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+			message = '<p><b>Agent V :</b> ARJUN S S </p> <br/><p>Lead Design Engineer</p><br/><p>Arjun is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
 			break;
 			case 'lohit': 
-			message = '<p><b>Agent V :</b> LOHIT B </p> <br/><p>Demo Engineer</p><br/><p>Lohit is an Lead developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and lead developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+			message = '<p><b>Agent V :</b> LOHIT B </p> <br/><p>Demo Engineer</p><br/><p>Lohit is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
 			break;
 			case 'chanakya': 
-			message = '<p><b>Agent V :</b> CHANAKYA </p> <br/><p>Sr.Demo Engineer</p><br/><p>Chanakya is an Lead developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and lead developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+			message = '<p><b>Agent V :</b> CHANAKYA </p> <br/><p>Sr.Demo Engineer</p><br/><p>Chanakya is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
 			break;
 			case 'jahnavi': 
-			message = '<p><b>Agent V :</b> JAHNAVI </p> <br/><p>Designer</p><br/><p>Jahnavi is an Lead developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and lead developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+			message = '<p><b>Agent V :</b> JAHNAVI </p> <br/><p>Designer</p><br/><p>Jahnavi is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
 			break;
 			case 'avinash': 
-			message = '<p><b>Agent V :</b> AVINASH </p> <br/><p>Manager</p><br/><p>Avinash is an Lead developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and lead developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+			message = '<p><b>Agent V :</b> AVINASH </p> <br/><p>Manager</p><br/><p>Avinash is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
 			break;
 			case 'venkat': 
 			message = '<p><b>Agent V :</b> VENKAT </p> <br/><p>Director</p><br/><p>Leading an extremly talented group of developers and designers who deliver multi-cloud, AI, IoT demos for APAC, EMEA and AMER Regions. </p><br/><p><strong>Q Branch</strong></p>';
 			break;
 			case 'srinivas': 
-			message = '<p><b>Agent V :</b> SRINIVAS </p> <br/><p>Sr.Manager</p><br/><p>Srinivas is an Lead developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and lead developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+			message = '<p><b>Agent V :</b> SRINIVAS </p> <br/><p>Sr.Manager</p><br/><p>Srinivas is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
 			break;
 			case 'richard': 
-			message = '<p><b>Agent V :</b> RICHARD</p> <br/><p>Sr.Designer</p><br/><p>Richard is an Lead developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and lead developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+			message = '<p><b>Agent V :</b> RICHARD</p> <br/><p>Sr.Designer</p><br/><p>Richard is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
 			break;
 			case 'rohit': 
-			message = '<p><b>Agent V :</b> ROHIT </p> <br/><p>Sr.Designer </p><br/><p>Rohit is an Lead developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and lead developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+			message = '<p><b>Agent V :</b> ROHIT </p> <br/><p>Sr.Designer </p><br/><p>Rohit is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
 			break;
 			case 'salil': 
-			message = '<p><b>Agent V :</b> SALIL </p> <br/><p>Sr.Demo Engineer</p><br/><p>Salil is an Lead developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and lead developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+			message = '<p><b>Agent V :</b> SALIL </p> <br/><p>Sr.Demo Engineer</p><br/><p>Salil is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
 			break;
 			case 'rags': 
-			message = '<p><b>Agent V :</b> RAGHZ </p> <br/><p>Sr.Demo Engineer</p><br/><p>Raghavendra is an Lead developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and lead developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+			message = '<p><b>Agent V :</b> RAGHZ </p> <br/><p>Sr.Demo Engineer</p><br/><p>Raghavendra is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
 			break;
 			case 'vidya': 
-			message = '<p><b>Agent V :</b> SRI VIDYA </p> <br/><p>Demo Engineer</p><br/><p>Vidya is an Lead developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and lead developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+			message = '<p><b>Agent V :</b> SRI VIDYA </p> <br/><p>Demo Engineer</p><br/><p>Vidya is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
 			break;
 			case 'vamsi': 
-			message = '<p><b>Agent V :</b> VAMSIDHAR TAMATAM </p> <br/><p>Demo Engineer</p><br/><p>Vamsi is an Lead developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and lead developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+			message = '<p><b>Agent V :</b> VAMSIDHAR TAMATAM </p> <br/><p>Demo Engineer</p><br/><p>Vamsi is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
 			break;
 			case 'poonam': 
-			message = '<p><b>Agent V :</b> POONAM </p> <br/><p>Sr.Demo Engineer</p><br/><p>Poonam is an Lead developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and lead developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+			message = '<p><b>Agent V :</b> POONAM </p> <br/><p>Sr.Demo Engineer</p><br/><p>Poonam is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
 			break;
 			case 'leela': 
-			message = '<p><b>Agent V :</b> LEELA MOHAN GONGUNTA </p> <br/><p>Lead Demo Engineer</p><br/><p>Poonam is an Lead developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and lead developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+			message = '<p><b>Agent V :</b> LEELA MOHAN GONGUNTA</p><br/><p>Lead Demo Engineer</p><br/><p>Poonam is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
 			break;
 			
 		}
