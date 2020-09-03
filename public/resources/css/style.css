@@ -284,6 +284,7 @@ h2:after{
 .section-team {
   padding: 0;
   margin-bottom:20px;
+  margin-top:50px;
 }
 
 .team-showcase {
@@ -438,6 +439,7 @@ footer p {
 
 .section-features,.section-team {
   height:100vh;
+
 }
 
 .image-gallery-container ul li:hover {
@@ -449,3 +451,7 @@ footer p {
   transform: scale(1.5);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+
+/* -------- SMOOTH SCROLL -----------*/
+
