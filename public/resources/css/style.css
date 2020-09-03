@@ -391,13 +391,15 @@ footer p {
   
 }
 
-.image-gallery-container ul li .bg-image, .image-gallery-container ul li .bg-image-color{
+.image-gallery-container ul li .bg-image{
   margin:15px;
   width:80px;
   height:120px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position:center;
+  filter: grayscale(100%);
+  transition: all .6s ease-in-out; 
  }
 
 .image-gallery-container ul {
@@ -426,7 +428,7 @@ footer p {
   background-color:#0B1F52;
   color:white;
   width: 288px;
-  height:160px;
+  height:200px;
   border-radius: 20px;;
 }
 
