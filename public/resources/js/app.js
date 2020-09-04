@@ -1,17 +1,51 @@
 $(document).ready(function () {
 
 
+	function addFootPrintContent(){
 
-	$('a[href*=\\#]:not([href=\\#])').on('click', function() {
+		$('#footprint-container').append(
+			`
+			<div class="footprint-container">
+				<div class="footprint left1"><img src="/resources/images/leftfoot.png"></div>
+				
+			</div>
+			<div class="footprint-container">
+			
+				<div class="footprint right2"><img src="/resources/images/rightfoot.png"></div>
+			</div>
+			<div class="footprint-container">
+				<div class="footprint left3"><img src="/resources/images/leftfoot.png"></div>
+			
+			</div>
+			<div class="footprint-container">
+			
+				<div class="footprint right4"><img src="/resources/images/rightfoot.png"></div>
+			</div>
+			<div class="footprint-container">
+				<div class="footprint left5"><img src="/resources/images/leftfoot.png"></div>
+			
+			</div>
+			<div class="footprint-container">
+			
+				<div class="footprint right6"><img src="/resources/images/rightfoot.png"></div>
+			</div>
+		`
+		);
+	}
+
+	$('a[href*=\\#]:not([href=\\#])').on('click', function () {
 		var target = $(this.hash);
-		target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
+		target = target.length ? target : $('[name=' + this.hash.substr(1) + ']');
 		if (target.length) {
-				$('html,body').animate({
-						scrollTop: target.offset().top
-				}, 1000);
-				return false;
+			$('html,body').animate(
+				{
+					scrollTop: target.offset().top,
+				},
+				1000
+			);
+			return false;
 		}
-});
+	});
 
 	$('.image-gallery-container').on('mouseleave', function (e) {});
 
@@ -24,6 +58,16 @@ $(document).ready(function () {
 			filter: 'grayscale(100%)',
 			transform: 'scale(1)',
 		});
+	});
+
+	$('.section-footprints').waypoint(function() {
+		if($('#footprint-container div').size() === 0){
+		addFootPrintContent();
+		setInterval(function(){
+			//$('#footprint-container').html('');
+		//	addFootPrintContent();
+		 }, 15000);
+		}
 	});
 
 	$('.bg-image').on('mouseover', function (e) {
