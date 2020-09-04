@@ -64,8 +64,8 @@ $(document).ready(function () {
 		if($('#footprint-container div').size() === 0){
 		addFootPrintContent();
 		setInterval(function(){
-			//$('#footprint-container').html('');
-		//	addFootPrintContent();
+			$('#footprint-container').html('');
+			addFootPrintContent();
 		 }, 15000);
 		}
 	});
