@@ -278,7 +278,7 @@ h2:after{
 }
 
 /* ----------------------------------------------- */
-/* MEALS */
+/* TEAM */
 /* ----------------------------------------------- */
 
 .section-team {
@@ -405,14 +405,19 @@ footer p {
 
 .image-gallery-container ul {
   animation:r 4s forwards;
-} @keyframes r {
+} 
+
+
+@keyframes r {
   from {transform:rotate(180deg)}
   to {transform:rotate(0)}
 }
 
-.image-gallery-container li {
+.image-gallery-container li, li-gallery-animate {
   animation:ir 4s forwards;
-} @keyframes ir {
+} 
+
+@keyframes ir {
   from {transform:rotate(-360deg)}
   to {transform:rotate(0)}
 }
