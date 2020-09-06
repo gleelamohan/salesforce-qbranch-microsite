@@ -1,34 +1,61 @@
 $(document).ready(function () {
 
+	function animateFootPrints(){
+
+		$('#right3').append('<img src="/resources/images/rightfoot.png">');
+		$('#left3').append('<img src="/resources/images/leftfoot.png">');
+		$('#right2').append('<img src="/resources/images/rightfoot.png">');
+		$('#left2').append('<img src="/resources/images/leftfoot.png">');
+		$('#right1').append('<img src="/resources/images/rightfoot.png">');
+		$('#left1').append('<img src="/resources/images/leftfoot.png">');
+	}
 
 	function addFootPrintContent(){
 
 		$('#footprint-container').append(
 			`
-			<div class="footprint-container">
-				<div class="footprint left1"><img src="/resources/images/leftfoot.png"></div>
+			<div class="footprint-container fc-left1">
+						<div class="footprint-details left1"><ul><li>164M <span style="font-weight:100;"> Influenced in H1</span></li><li> <span style="font-weight:100;">AMER $96.7M, <br/>EMEA $46M, APAC $20.7M  </span></li></ul></div>
+						<div class="line-left left1"></div><div class="footprint-left left1">ACV <br/>Influenced</div>
 				
-			</div>
-			<div class="footprint-container">
-			
-				<div class="footprint right2"><img src="/resources/images/rightfoot.png"></div>
-			</div>
-			<div class="footprint-container">
-				<div class="footprint left3"><img src="/resources/images/leftfoot.png"></div>
-			
-			</div>
-			<div class="footprint-container">
-			
-				<div class="footprint right4"><img src="/resources/images/rightfoot.png"></div>
-			</div>
-			<div class="footprint-container">
-				<div class="footprint left5"><img src="/resources/images/leftfoot.png"></div>
-			
-			</div>
-			<div class="footprint-container">
-			
-				<div class="footprint right6"><img src="/resources/images/rightfoot.png"></div>
-			</div>
+						<div class="footprint left1" id="left1"><img src="/resources/images/leftfoot.png"></div>
+						
+					</div>
+					<div class="footprint-container fc-right1">
+					
+						<div class="footprint right1" id="right1"><img src="/resources/images/rightfoot.png"></div>
+						<div class="footprint-right right1">Overall <br/> Utilization %</div><div class="line right1"></div>
+						<div class="footprint-details right1" ><ul><li>49% onDemand <span style="font-weight:100;"> <br/>and with Overall 109%</span></li></ul></div>
+				
+					</div>
+					<div class="footprint-container fc-left2">
+						<div class="footprint-details left2"><ul><li>20 <span style="font-weight:100;"> Demo Components</span></li><li>12 <span style="font-weight:100;"> Demo Assets</span></li><li>9 <span style="font-weight:100;"> Trailhead Rangers</span></li></ul></div>
+						<div class="line-left left2"></div><div class="footprint-left left2">Demo <br/>Components <br/> & Assets</div>
+				
+						<div class="footprint left2" id="left2"><img src="/resources/images/leftfoot.png"></div>
+					
+					</div>
+					<div class="footprint-container fc-right2">
+					
+						<div class="footprint right2" id="right2"><img src="/resources/images/rightfoot.png"></div>
+						<div class="footprint-right right2">App Exchange</div><div class="line right2"></div>
+						<div class="footprint-details right2"><ul><li>9 <span style="font-weight:100;"> App Exchange Apps</span></li></ul></div>
+				
+					</div>
+					<div class="footprint-container fc-left3">
+						<div class="footprint-details left3"><ul><li>13 <span style="font-weight:100;"> Certifications</span></li><li>9 <span style="font-weight:100;"> Double Star Rangers</span></li><li>9 <span style="font-weight:100;"> Trailhead Rangers</span></li></ul></div>
+						<div class="line-left left3"></div><div class="footprint-left left3">Learnings</div>
+				
+						<div class="footprint left3" id="left3"><img src="/resources/images/leftfoot.png"></div>
+					
+					</div>
+					<div class="footprint-container fc-right3">
+					
+						<div class="footprint right3" id="right3"><img src="/resources/images/rightfoot.png"></div>
+						<div class="footprint-right right3">VTO</div><div class="line right3"></div>
+						<div class="footprint-details right3"><ul><li>798 hours <span style="font-weight:100;"> of VTO - 71%</span></li><li>7 Volunteer Rockstars</li></ul></div>
+				
+					</div>
 		`
 		);
 	}
@@ -64,9 +91,9 @@ $(document).ready(function () {
 		if($('#footprint-container div').size() === 0){
 		addFootPrintContent();
 		setInterval(function(){
-			$('#footprint-container').html('');
-			addFootPrintContent();
-		 }, 15000);
+			$('.footprint').html('');
+			  animateFootPrints();
+		 }, 9000);
 		}
 	});
 
