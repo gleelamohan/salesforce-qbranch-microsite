@@ -614,6 +614,30 @@ footer p {
   }
 }
 
-/* -------- End of FOOT PRINTS ------------- */
+/* -------- END OF FOOT PRINTS ------------- */
 
+/* -------- ASIA SPECIFIC ------------------ */
 
+.section-asia{
+  height: 100vh;
+  background-color:#F5F3F4;
+}
+
+#asia-container {
+  display: flex;
+  justify-content: center;
+}
+
+#asia-container > img{
+  height:400px;
+  transition-duration: 0.8s;
+  transition-property: transform;
+ 
+}
+
+#asia-container > img:hover{
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+
+/* -------- END OF ASIA SPECIFIC ------------------ */
