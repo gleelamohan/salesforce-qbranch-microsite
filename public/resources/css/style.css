@@ -631,16 +631,10 @@ footer p {
 }
 
 #asia-container > img{
-  height:400px;
-  transition-duration: 0.8s;
-  transition-property: transform;
- 
+  height:600px;
+  
 }
 
-#asia-container > img:hover{
-  transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-}
 
 /* -------- END OF ASIA SPECIFIC ------------------ */
 
