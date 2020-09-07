@@ -60,6 +60,121 @@ $(document).ready(function () {
 		);
 	}
 
+	$('.agile-node').mouseover(function(e) {
+
+		var title=$(this).attr('title');
+		//var message = '<div><div><span><img src="/resources/images/cat.png" /><span  style="margin-bottom: 20px;vertical-align: super;margin-left: 10px;"> <b>3</b></span></div><div><span style="float: right;vertical-align: middle;margin-top: 12px;"><b>1</b> Demo Asset</span></span><b>1091</b> Hours</div></div>';
+
+		var message = '';
+		var color = 'white';
+
+		var left = '';
+		var top = '';
+		var demoassets ='';
+		var assetscount = '';
+		var hours = '';
+		var hourscount = '';
+		var downloadicon = 'download-icon';
+
+ var backgroundcolor='#0B1F52';
+		switch(title){
+			case 'q3': 
+			demoassets= '1';
+			assetscount = '4';
+			hours = '1091';
+			hourscount='6';
+			backgroundcolor = '#FFAE00';
+			 color = 'black';
+			left = e.pageX -250;
+			top = e.pageY;
+			$('#agileHiddenDiv').find('li').addClass('li-black');
+			
+			break;
+			case 'q4': 
+			demoassets= '2';
+			assetscount = '14';
+			hours = '1361';
+			hourscount='4';
+			backgroundcolor = '#FFAE00';
+			 color = 'black';
+			left = e.pageX -250;
+			top = e.pageY;
+			$('#agileHiddenDiv').find('li').addClass('li-black');
+			break;
+			case 'q1': 
+			demoassets= '2';
+			assetscount = '14';
+			hours = '785';
+			hourscount='3';
+			downloadicon = 'download-icon-white';
+			 left = e.pageX +50;
+			 top = e.pageY ;
+			break;
+			case 'q2': 
+			downloadicon = 'download-icon-white';
+			demoassets= '11';
+			assetscount = '16';
+			hours = '1497';
+			hourscount='2';
+			left = e.pageX +50;
+			top = e.pageY ;
+			break;
+		}
+
+		message = `<div>
+		<div style="
+		width: 60px;
+		float: left;
+	"><img src="/resources/images/${downloadicon}.png" style="height:20px;">
+			<span style="margin-bottom: 20px;vertical-align: super;margin-left: 5px;"> 
+				<b>${assetscount}</b>
+			</span>
+		</div>
+		<div style="
+		width: 80px;
+		float: left;
+		margin-top: 5px;
+	">
+			<b>${demoassets}</b> Demo Asset
+		</div>
+		
+	</div>
+	
+		<div style="float:left;margin-top:15px;">
+			<div style="
+		width: 60px;
+		float: left;
+	"><img src="/resources/images/cat.png" style="height:25px;">
+			<span style="margin-bottom: 20px;vertical-align: super;margin-left: 5px;"> 
+				<b>${hourscount}</b>
+			</span>
+		</div>
+		<div style="
+		width: 80px;
+		float: left;
+		margin-top: 10px;
+	">
+			<b>${hours}</b> Hours
+		</div>
+		</div>`;
+		$('#agileHiddenDiv')
+		.css({
+			'position': 'absolute',
+			'left': left,
+			'top': top ,
+			'display': 'block',
+			'background-color': backgroundcolor,
+			'color': color
+		})
+		.html(message);
+	
+		
+}).mouseleave(function(e){
+	/*$('#agileHiddenDiv')
+			.css({
+				display: 'none'
+			});*/
+});
 	$('a[href*=\\#]:not([href=\\#])').on('click', function () {
 		var target = $(this.hash);
 		target = target.length ? target : $('[name=' + this.hash.substr(1) + ']');

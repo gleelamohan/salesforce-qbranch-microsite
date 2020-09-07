@@ -438,6 +438,8 @@ footer p {
   border-radius: 20px;;
 }
 
+
+
 .hide{
   display: none;
 }
@@ -512,7 +514,7 @@ footer p {
 }
 .footprint-details li{
   list-style: none;
-  font-size: 50%;
+  font-size: 70%;
 }
 .line, .line-left {
 	border-top: 1px solid white;
@@ -641,3 +643,48 @@ footer p {
 }
 
 /* -------- END OF ASIA SPECIFIC ------------------ */
+
+/* ------- AGILE --------------*/
+
+.section-agile{
+  height: 100vh;
+  background-color: #B3414F;
+}
+
+.agile-container {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+}
+
+.agile-container > img{
+  height:400px;
+}
+
+#agileHiddenDiv li{
+ list-style: none;
+}
+
+.li-black {
+  color: black;
+}
+
+.li-white {
+  color: white;
+}
+
+#agileHiddenDiv {
+
+  display: none;
+  background-color:white;
+  padding: 20px;
+  font-size: 60%;
+  background-color:#0B1F52;
+  color:white;
+  width: 200px;
+  height:100px;
+  border-radius: 10px;;
+
+}
+/* -------- END OF AGILE -------------------*/
