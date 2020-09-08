@@ -723,3 +723,161 @@ footer p {
 .hide{
   display:none;
 }
+
+/*--------- Map and stats -----------*/
+
+
+.map-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.map {
+  width: 100%;
+}
+
+.pointer {
+  position: absolute;
+  height: 10%;
+  transition: all .5s ease-in-out;
+}
+
+.fit {
+  width: 55%;
+  text-align: center;
+}
+
+.pointer-container {
+  position: relative;
+}
+
+.pointer-amer {
+  left: 18%;
+  top: 25%;
+}
+
+.pointer-emea {
+  left: 52%;
+  top: 10%;
+}
+
+.pointer-india {
+  left: 70.5%;
+  top: 35%;
+}
+
+.pointer-asia {
+  left: 77%;
+  top: 29%;
+}
+
+.pointer-anz {
+  left: 92%;
+  top: 75%;
+}
+
+
+.region-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 5px;
+  line-height: 1.8;
+}
+
+.region-text {
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.region-label {
+  margin-left: 3%;
+  margin-top: 3%;
+  position: absolute;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #0b1f52;
+}
+
+.breakdown-header {
+  margin-bottom: 75px;
+  color: rgb(11, 31, 82);
+  font-family: inherit;
+  font-weight: bold;
+}
+
+.hidden-region {
+  background-color: #0B1F52;
+  color: white;
+}
+
+.map-footer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 225px;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+
+.stats-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+
+.stats-chart-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.chart-label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0B1F52;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+
+.chart-border {
+  border: 1px solid #0B1F52;
+  background-color: #f3f2f2;
+  padding: 20px;
+}
+
+.stats-custom-legend {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #666666;
+}
+
+.stats-legend-placement {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+
+
+.stats-chart {
+  position: relative;
+  width: 38 kw;
+}
+
+.container-section-map {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.container-section-chart {
+  height: :100vh;
+}
