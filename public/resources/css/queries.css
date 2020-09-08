@@ -42,8 +42,13 @@
   }
   section { padding: 60px 0; }
   .group {
-    left:80%;
+    left:75%;
 }
+
+.hero-text-box {
+  left:90%
+}
+
 
 .group{
   display:none;
@@ -51,6 +56,7 @@
 
 .group-mobile{
   display:block;
+  top:50%;
 }
 
 .advisory-container {
