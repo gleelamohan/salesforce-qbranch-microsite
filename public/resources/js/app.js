@@ -88,6 +88,25 @@ $(document).ready(function () {
 
 	});
 
+	$(".dc-inner-tab").on("click", function(){
+		$(".dc-inner-tab").removeClass('active');
+		$(this).addClass('active');
+
+		var tabName = $(this).attr('id');
+
+		switch(tabName){
+			case "dc-tab1": 
+				$(".dc-tab-detail").addClass('hide');
+				$("#dc-tab-detail1").removeClass('hide');
+			break;
+			case "dc-tab2": 
+				$(".dc-tab-detail").addClass('hide');
+				$("#dc-tab-detail2").removeClass('hide');
+			break;
+
+		}
+	});
+
 	$('.agile-node').mouseover(function(e) {
 
 		var title=$(this).attr('title');

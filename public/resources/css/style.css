@@ -685,6 +685,7 @@ footer p {
 }
 /* -------- END OF AGILE -------------------*/
 
+/* ---------   ADVISOR --------------------*/
 
 .advisory-container{
   margin-left: 25%;
@@ -723,3 +724,43 @@ footer p {
 .hide{
   display:none;
 }
+
+/* ----------- END OF ADVISOR --------------- */
+
+/* ----------- DEMO COMPONENTS ----------- */
+
+.demo-container{
+  margin-left: 5%;
+}
+
+
+.dc-inner-tab {
+  width:200px;
+  padding: 20px;
+  text-align: center;
+  font-size:80%;
+  border: 1px solid #F2F2F2;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  cursor: pointer;
+}
+
+.dc-tab-detail {
+  width: 40%;
+  border: 1px solid #F2F2F2;
+  text-align:center;
+  background-color:#F2F2F2;
+  height:400px;
+  overflow-y:auto;
+}
+
+.dc-tab-detail li {
+  padding: 10px;
+}
+
+
+
+
+
+
+/* ---------------END OF DEMO COMPONENTS --------- */
