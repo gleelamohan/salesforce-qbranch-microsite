@@ -45,6 +45,14 @@
     left:75%;
 }
 
+.group{
+  display:none;
+}
+
+.group-mobile{
+  display:block;
+}
+
 .advisory-container {
   margin-left: 14%;
 }
