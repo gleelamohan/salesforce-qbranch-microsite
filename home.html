@@ -2,19 +2,16 @@
 <html lang="en">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
 		<link rel="stylesheet" type="text/css" href="/vendors/css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="/vendors/css/grid.css" />
 		<link rel="stylesheet" type="text/css" href="/resources/css/style.css" />
 		<link rel="stylesheet" type="text/css" href="/resources/css/queries.css" />
-
 		<link
 			href="https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic"
 			rel="stylesheet"
 			type="text/css"
 		/>
 		<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-
 		<title>Q Branch</title>
 	</head>
 	<body>
@@ -30,7 +27,6 @@
 						<li><a href="#">Demos</a></li>
 						<li><a href="#">Apps</a></li>
 					</ul>
-
 					<ion-icon
 						class="mobile-nav-icon js--nav-icon"
 						name="menu-outline"
@@ -268,40 +264,41 @@
 				<img src="/resources/images/path.png" usemap="#image-map" />
 				<map name="image-map">
 					<area
-						target=""
+						
 						alt=""
 						title="q3"
 						href=""
 						coords="32,359,16"
 						shape="circle"
 						class="agile-node"
+						onclick="return false"
 					/>
 					<area
-						target=""
 						alt=""
 						title="q4"
 						href=""
 						coords="151,219,17"
 						shape="circle"
 						class="agile-node"
+						onclick="return false"
 					/>
 					<area
-						target=""
 						alt=""
 						title="q1"
 						href=""
 						coords="420,246,16"
 						shape="circle"
 						class="agile-node"
+						onclick="return false"
 					/>
 					<area
-						target=""
 						alt=""
 						title="q2"
 						href=""
 						coords="262,106,18"
 						shape="circle"
 						class="agile-node"
+						onclick="return false"
 					/>
 				</map>
 			</div>
@@ -314,21 +311,28 @@
 				</div>
 				<div class="advisory-container">
 					<div class="tabs-container">
-						<div class="inner-tab active">
+						<div id="tab1" class="inner-tab active">
 							Technical Advisory
 						</div>
-						<div class="inner-tab">
+						<div id="tab2" class="inner-tab">
 							Comms Designer
 						</div>
-						<div class="inner-tab">
+						<div id="tab3" class="inner-tab">
 							Specialised Team
 						</div>
-						<div class="inner-tab">
+						<div id="tab4" class="inner-tab">
 							Supported by
 						</div>
+						
 					</div>
-					<div class="tab-detail">
+					<div id="tab-detail1" class="tab-detail">
 						<img style="height:250px;" src="/resources/images/technical-achievements.png" />
+					</div>
+					<div id="tab-detail2" class="tab-detail">
+					</div>
+					<div id="tab-detail3" class="tab-detail">
+					</div>
+					<div id="tab-detail4" class="tab-detail">
 					</div>
 
 				</div>

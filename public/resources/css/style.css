@@ -17,6 +17,7 @@ body {
   font-size: 20px;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
+  position:relative;
 }
 
 .clearfix {zoom: 1;}
@@ -67,6 +68,7 @@ header {
   background-position: center;
   height: 100vh;
   background-attachment: fixed;
+  position:relative;
 }
 
 h1,
@@ -708,8 +710,7 @@ footer p {
 }
 
 .tab-detail {
-  width: 70%;
-  height: 250px;
+  width: 80%;
   border: 1px solid #F2F2F2;
   text-align:center;
   background-color:#F2F2F2;
@@ -717,4 +718,8 @@ footer p {
 
 .active {
   background-color:#F2F2F2;
+}
+
+.hide{
+  display:none;
 }
