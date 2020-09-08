@@ -108,6 +108,30 @@
   
   .plan-price { font-size: 250%; }
   .contact-form { width: 80%; }
+
+  .fc-left3 {
+    margin-right: 13%;
+  }
+  
+  .fc-right3 {
+    margin-left: 13%;
+  }
+  
+  .fc-left2 {
+    margin-right: 26%;
+  }
+  
+  .fc-right2 {
+    margin-left: 26%;
+  }
+  
+  .fc-left1 {
+    margin-right: 26%;
+  }
+  
+  .fc-right1 {
+    margin-left: 26%;
+  }
 }
 
 
