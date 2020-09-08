@@ -46,7 +46,7 @@
 }
 
 .hero-text-box {
-  left:90%
+  left:86%
 }
 
 
@@ -57,6 +57,7 @@
 .group-mobile{
   display:block;
   top:50%;
+  left:50%;
 }
 
 .advisory-container {
