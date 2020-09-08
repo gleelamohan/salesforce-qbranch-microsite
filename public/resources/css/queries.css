@@ -140,6 +140,11 @@
   .fc-right1 {
     margin-left: 26%;
   }
+
+  .demo-feedback img{
+    height:350px;
+    object-fit:contain;
+  }
 }
 
 
