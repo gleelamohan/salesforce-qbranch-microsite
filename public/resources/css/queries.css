@@ -31,11 +31,15 @@
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
 
-  body { font-size: 18px; }
+  body { 
+    font-size: 18px; 
+    overflow-x: hidden;
+  }
   section { padding: 60px 0; }
   .group {
     left:75%;
 }
+
 
 .section-features,.section-team {
   height:100%;

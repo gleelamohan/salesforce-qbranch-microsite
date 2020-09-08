@@ -645,7 +645,7 @@ footer p {
   background-color: #B3414F;
 }
 
-.agile-container {
+.agile-container{
   display: flex;
   justify-content:center;
   align-items: center;
@@ -682,3 +682,39 @@ footer p {
 
 }
 /* -------- END OF AGILE -------------------*/
+
+
+.advisory-container{
+  margin-left: 25%;
+}
+
+.tabs-container {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  
+
+}
+
+.inner-tab {
+  width:200px;
+  padding: 20px;
+  text-align: center;
+  font-size:80%;
+  border: 1px solid #F2F2F2;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  cursor: pointer;
+}
+
+.tab-detail {
+  width: 70%;
+  height: 250px;
+  border: 1px solid #F2F2F2;
+  text-align:center;
+  background-color:#F2F2F2;
+}
+
+.active {
+  background-color:#F2F2F2;
+}
