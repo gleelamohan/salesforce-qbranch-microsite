@@ -34,12 +34,20 @@
   body { 
     font-size: 18px; 
     overflow-x: hidden;
+    width:1120px;
+  }
+
+  .row{
+    width:1060px;
   }
   section { padding: 60px 0; }
   .group {
     left:75%;
 }
 
+.advisory-container {
+  margin-left: 14%;
+}
 
 .section-features,.section-team {
   height:100%;
