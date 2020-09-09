@@ -45,6 +45,8 @@
     left:75%;
 }
 
+
+
 .hero-text-box {
   left:86%
 }
@@ -92,7 +94,14 @@
 .section-agile{
   height: 100%;
 }
+
+.demo-components {
+  height:100%;
+}
   
+.section-appexchange {
+  height: 100%;
+}
   
   .long-copy {
       width: 80%;
