@@ -687,6 +687,9 @@ footer p {
 
 /* ---------   ADVISOR --------------------*/
 
+.section-advisory{
+  height: 100vh;
+}
 .advisory-container{
   margin-left: 25%;
 }
@@ -729,10 +732,13 @@ footer p {
 
 /* ----------- DEMO COMPONENTS ----------- */
 
+.demo-components{
+  height: 100vh;
+}
+
 .demo-container{
   margin-left: 5%;
 }
-
 
 .dc-inner-tab {
   width:200px;
@@ -746,7 +752,6 @@ footer p {
 }
 
 .dc-tab-detail {
- 
   border: 1px solid #F2F2F2;
   text-align:center;
   background-color:#F2F2F2;
@@ -758,13 +763,10 @@ footer p {
   padding: 10px;
 }
 
-
 .demo-feedback img{
   height:450px;
   object-fit:contain;
 }
-
-
 
 /* ---------------END OF DEMO COMPONENTS --------- */
 /*--------- MAP AND METRICS -----------*/

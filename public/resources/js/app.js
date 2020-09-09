@@ -85,7 +85,6 @@ $(document).ready(function () {
 				$("#tab-detail4").removeClass('hide');
 			break;
 		}
-
 	});
 
 	$(".dc-inner-tab").on("click", function(){
@@ -103,7 +102,6 @@ $(document).ready(function () {
 				$(".dc-tab-detail").addClass('hide');
 				$("#dc-tab-detail2").removeClass('hide');
 			break;
-
 		}
 	});
 
