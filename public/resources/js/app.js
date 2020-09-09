@@ -268,23 +268,23 @@ $(document).ready(function () {
 		switch (name) {
 			case 'aravind':
 				message =
-					'<p><b>Agent AB :</b> ARAVIND BABU B </p> <br/><p>Demo Engineer</p><br/><p>  He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+					'<p><b>Agent AB :</b> ARAVIND BABU B </p> <br/><p>Demo Engineer</p><br/><p>Building awesome demos Q India, one at a time. Always up for conversation regarding minimalism, Cricket, movies and Grand Theft Auto. </p> <br/><br/><p><strong>Passionate Learner and Fun Loving person.</strong></p>';
 				break;
 			case 'arjun':
 				message =
-					'<p><b>Agent A :</b> ARJUN S S </p> <br/><p>Lead Design Engineer</p><br/><p>Arjun is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+					'<p><b>Agent A :</b> ARJUN S S </p> <br/><p>Lead Design Engineer</p><br/><p>Experiences must be meaningful.  In order to understand how to create that meaningful experience, I rely on my research to justify my design decisions. This requires continual design iterations to create the best solution possible.</p><br/><p><strong>Passionate Learner and Fun Loving person.</strong></p>';
 				break;
 			case 'lohit':
 				message =
-					'<p><b>Agent L :</b> LOHIT B </p> <br/><p>Demo Engineer</p><br/><p>Lohit is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+					'<p><b>Agent L :</b> LOHIT B </p> <br/><p>Associate Demo Engineer</p><br/><p>I am a developer by heart, I love to get my hands dirty on code day In and day out. I work closely with Solution Engineers, build customized components </p><br/><p><strong>I strongly believe "software engineer - an organism that turns caffeine into software"</strong></p>';
 				break;
 			case 'chanakya':
 				message =
-					'<p><b>Agent C :</b> CHANAKYA </p> <br/><p>Sr.Demo Engineer</p><br/><p>Chanakya is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+					'<p><b>Agent C :</b> CHANAKYA </p> <br/><p>Sr.Demo Engineer</p><br/><p>I am graduated in Computer Science and Engineering. I have 4+ years of experience in implementing Oracle HCM Cloud and Java. I have experience in Programming Languages - Java,PHP, Web Technologies.</p><br/><p><strong>Passionate Learner and Fun Loving person.</strong></p>';
 				break;
 			case 'jahnavi':
 				message =
-					'<p><b>Agent J :</b> JAHNAVI </p> <br/><p>Designer</p><br/><p>Jahnavi is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+					'<p><b>Agent J :</b> JAHNAVI </p> <br/><p>Designer</p><br/><p>I am a designer , developer and an art lover trying to explore the essential aspects of creativity and find the nexus between the art and technology.I believe in creating experiences which are simple, clean ,effective .</p><br/><p><strong>Happily motivated to be on stage to perform Dance and Signing</strong></p>';
 				break;
 			case 'avinash':
 				message =
@@ -300,23 +300,23 @@ $(document).ready(function () {
 				break;
 			case 'richard':
 				message =
-					'<p><b>Agent R :</b> RICHARD</p> <br/><p>Sr.Designer</p><br/><p>Richard is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+					'<p><b>Agent R :</b> RICHARD</p> <br/><p>Sr.Designer</p><br/><p>I work with the Qbranch team in Bangalore, INDIA redefining the branding and UI/UX space, with complete focus revolving around Lean UI/UX and Minimalism design.</p><br/><p><strong>I truly believe that any concept will lose its value if you don’t give it the</strong></p>';
 				break;
 			case 'rohit':
 				message =
-					'<p><b>Agent R :</b> ROHIT </p> <br/><p>Sr.Designer </p><br/><p>Rohit is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+					'<p><b>Agent R :</b> ROHIT </p> <br/><p>Sr.Designer </p><br/><p>I am a Graphic Designer with an overall experience of 6 years.Here as a Communications Designer and proud to be joining the Q-branch India Team. </p><br/><p><strong>Looking forward to learning & developing my self.</strong></p>';
 				break;
 			case 'salil':
 				message =
-					'<p><b>Agent S :</b> SALIL </p> <br/><p>Sr.Demo Engineer</p><br/><p>Salil is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+					'<p><b>Agent S :</b> SALIL </p> <br/><p>Sr.Demo Engineer</p><br/><p>Currently playing the amazing role of a Demo Engineer. As a part of the role we help Solution Engineers globally in building customisable and innovative Demo Components and Assets as well as AppExchange Products.</p><br/><p><strong>I like travelling and exploring new places and passionately follow Cricket and EPL.</strong></p>';
 				break;
 			case 'rags':
 				message =
-					'<p><b>Agent R :</b> RAGHZ </p> <br/><p>Sr.Demo Engineer</p><br/><p>Raghavendra is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+					'<p><b>Agent R :</b> RAGHZ </p> <br/><p>Sr.Demo Engineer</p><br/><p>I am a passionate Developer with an eternal love for learning.I love to create innovative customer experiences with combined power of the Salesforce Platform, Emerging Technologies & Design.</p><br/><p><strong>I love to workout, blog, play video games and do photography.</strong></p>';
 				break;
 			case 'vidya':
 				message =
-					'<p><b>Agent S :</b> SRI VIDYA </p> <br/><p>Demo Engineer</p><br/><p>Vidya is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+					'<p><b>Agent S :</b> SRI VIDYA </p> <br/><p>Demo Engineer</p><br/><p>I have 3+ years of experience as a Salesforce Developer.Started off my journey here at Salesforce with the amazing Demo team who work with Solution Engineers in building their Demos.</p><br/><p><strong>I love to create some interesting AppExchange Apps.</strong></p>';
 				break;
 			case 'vamsi':
 				message =
@@ -324,7 +324,7 @@ $(document).ready(function () {
 				break;
 			case 'poonam':
 				message =
-					'<p><b>Agent P :</b> POONAM </p> <br/><p>Sr.Demo Engineer</p><br/><p>Poonam is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+					'<p><b>Agent P :</b> POONAM </p> <br/><p>Sr.Demo Engineer</p><br/><p>I am part of the team that creates insanely amazing and cool stuff. We work with the Solution Engineers and Account Executives to build reusable components saving thousands of hours and bring more productivity.</p><br/><p><strong>Experimenter, Explorer and Neophiliac.</strong></p>';
 				break;
 			case 'leela':
 				message =
@@ -332,11 +332,11 @@ $(document).ready(function () {
 				break;
 			case 'suren':
 				message =
-					'<p><b>Agent L :</b>SURENDRANATH NUNE</p><br/><p>Lead Demo Engineer</p><br/><p> I work with Solution Engineers and help them in building great demos for customers. I graduated from Sathyabama University with Masters in Electronics. I have done PG diploma in software engineering at NIIT Hyderabad. I possess 10 years of hands-on experience in developing web applications.<p><p><strong>Apart from work, I love watching and playing cricket a lot.</strong></p>';
+					'<p><b>Agent L :</b>SURENDRANATH NUNE</p><br/><p>Lead Demo Engineer</p><br/><p>I am proud to be part of a team that brings an impact on the revenue coming into the organization. It is Q- Branch. I work with Solution Engineers to deliver insane industry-leading demos, time-saving tools to our Sales teams. </p><br/><p><strong>“Learning has no end” is what I always follow to improve my skills.</strong></p>';
 				break;
 			case 'hemanth':
 				message =
-					'<p><b>Agent L :</b> HEMANTH</p><br/><p>Demo Engineer</p><br/><p> I work with Solution Engineers and help them in building great demos for customers. I graduated from Sathyabama University with Masters in Electronics. I have done PG diploma in software engineering at NIIT Hyderabad. I possess 10 years of hands-on experience in developing web applications.<p><p><strong>Apart from work, I love watching and playing cricket a lot.</strong></p>';
+					'<p><b>Agent L :</b> HEMANTH</p><br/><p>Demo Engineer</p><br/><p> Member of APAC DE, Q-Branch family. We work with Solution Engineers to help them deliver a wonderful demo to customers with our development skills on our cutting edge products/technologies.</p><br/><p><strong>During my free time I love to learn, travel and spend time with my lovely family.</strong></p>';
 				break;
 		}
 
