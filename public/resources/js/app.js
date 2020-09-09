@@ -320,7 +320,7 @@ $(document).ready(function () {
 				break;
 			case 'vamsi':
 				message =
-					'<p><b>Agent V :</b> VAMSIDHAR TAMATAM </p> <br/><p>Demo Engineer</p><br/><p>Vamsi is an developer at Salesforce. He was a JavaScript tool developer for the Mozilla Corporation. He is also the creator and developer of the jQuery JavaScript library.<p><p><strong>By the way this was hidden div.</strong></p>';
+					'<p><b>Agent V :</b> VAMSIDHAR TAMATAM </p> <br/><p>Demo Engineer</p><br/><p>I am the Technical Project Co-ordinator for the Q-Branch India team. We support Global Solution Engineering team in building cutting edge demos and proof of concepts for our Customers</p><br/><p><strong> I am a fun loving person and an extrovert. I love to travel.</strong></p>';
 				break;
 			case 'poonam':
 				message =
