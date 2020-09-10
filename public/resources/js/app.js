@@ -62,8 +62,8 @@ $(document).ready(function () {
 
 	$(".inner-tab").on("click", function(){
 
-		$(".inner-tab").removeClass('active');
-		$(this).addClass('active');
+		$(".inner-tab").removeClass('active1');
+		$(this).addClass('active1');
 
 		var tabName = $(this).attr('id');
 
@@ -88,8 +88,8 @@ $(document).ready(function () {
 	});
 
 	$(".dc-inner-tab").on("click", function(){
-		$(".dc-inner-tab").removeClass('active');
-		$(this).addClass('active');
+		$(".dc-inner-tab").removeClass('active1');
+		$(this).addClass('active1');
 
 		var tabName = $(this).attr('id');
 

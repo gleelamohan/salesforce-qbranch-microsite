@@ -715,13 +715,14 @@ footer p {
 
 .tab-detail {
   width: 80%;
-  border: 1px solid #F2F2F2;
+  border: 1px solid #0B1A3D;
   text-align:center;
-  background-color:#F2F2F2;
+  background-color:#FFFF;
 }
 
-.active {
-  background-color:#F2F2F2;
+.active1 {
+  background-color:#0B1A3D;
+  color:white;
 }
 
 .hide{
@@ -745,16 +746,16 @@ footer p {
   padding: 20px;
   text-align: center;
   font-size:80%;
-  border: 1px solid #F2F2F2;
+  border: 1px solid #0B1A3D;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   cursor: pointer;
 }
 
 .dc-tab-detail {
-  border: 1px solid #F2F2F2;
+  border: 1px solid #0B1A3D;
   text-align:center;
-  background-color:#F2F2F2;
+  background-color:#FFFF;
   height:400px;
   overflow-y:auto;
 }
