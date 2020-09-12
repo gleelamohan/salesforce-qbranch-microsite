@@ -66,6 +66,17 @@ $(document).ready(function () {
 		);
 	}
 
+	function aos_init() {
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  }
+
+	$(window).on('load', function() {
+      aos_init();
+    });
+
 	$(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
