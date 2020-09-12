@@ -1,5 +1,11 @@
 $(document).ready(function () {
-
+	$(window).on('load', function() {
+    if ($('#preloader').length) {
+      $('#preloader').delay(100).fadeOut('slow', function() {
+        $(this).remove();
+      });
+    }
+  });
 	function animateFootPrints(){
 
 		$('#right3').append('<img src="/resources/images/rightfoot.png">');
@@ -59,6 +65,21 @@ $(document).ready(function () {
 		`
 		);
 	}
+
+	$(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('.back-to-top').fadeIn('slow');
+    } else {
+      $('.back-to-top').fadeOut('slow');
+    }
+  });
+
+  $('.back-to-top').click(function() {
+    $('html, body').animate({
+      scrollTop: 0
+    }, 1500, 'easeInOutExpo');
+    return false;
+  });
 
 	$(".inner-tab").on("click", function(){
 
