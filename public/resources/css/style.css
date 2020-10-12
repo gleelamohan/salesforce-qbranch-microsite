@@ -1,3 +1,45 @@
+
+/*! Lightning Design System 2.12.2 */
+@charset "UTF-8";
+@font-face{
+  font-family:"Salesforce Sans";
+  src:url("../fonts/webfonts/SalesforceSans-Light.woff2") format("woff2"), url("../fonts/webfonts/SalesforceSans-Light.woff") format("woff");
+  font-weight:300;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Salesforce Sans";
+  src:url("../fonts/webfonts/SalesforceSans-LightItalic.woff2") format("woff2"), url("../fonts/webfonts/SalesforceSans-LightItalic.woff") format("woff");
+  font-style:italic;
+  font-weight:300;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Salesforce Sans";
+  src:url("../fonts/webfonts/SalesforceSans-Regular.woff2") format("woff2"), url("../fonts/webfonts/SalesforceSans-Regular.woff") format("woff");
+  font-weight:400;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Salesforce Sans";
+  src:url("../fonts/webfonts/SalesforceSans-Italic.woff2") format("woff2"), url("../fonts/webfonts/SalesforceSans-Italic.woff") format("woff");
+  font-style:italic;
+  font-weight:400;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Salesforce Sans";
+  src:url("../fonts/webfonts/SalesforceSans-Bold.woff2") format("woff2"), url("../fonts/webfonts/SalesforceSans-Bold.woff") format("woff");
+  font-weight:700;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Salesforce Sans";
+  src:url("../fonts/webfonts/SalesforceSans-BoldItalic.woff2") format("woff2"), url("../fonts/webfonts/SalesforceSans-BoldItalic.woff") format("woff");
+  font-style:italic;
+  font-weight:700;
+  font-display:swap;
+}
 /* -------------------------------- */
 /* BASIC SETUP */
 /* -------------------------------- */
@@ -8,13 +50,26 @@
   box-sizing: border-box;
 }
 
+html{
+  font-family:sans-serif;
+  -ms-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
+}
+
+html{
+  font-family:"Salesforce Sans", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height:1.5;
+  background:#b0c4df;
+  color:#080707;
+  -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}
+
 html,
 body {
   background-color: #fff;
   color: #555;
-  font-family: 'Lato', 'Arial', sans-serif;
-  font-weight: 300;
-  font-size: 20px;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
   position:relative;
@@ -93,7 +148,7 @@ h2 {
   margin-bottom: 30px;
   text-transform: uppercase;
   color:#0C2252;
-  font-family:papyrus;
+  
 }
 
 h3{
@@ -284,9 +339,9 @@ h2:after{
 /* ----------------------------------------------- */
 
 .section-team {
-  padding: 0;
+  padding: 80px 0px;
   margin-bottom:20px;
-  margin-top:50px;
+  
 }
 
 .team-showcase {
@@ -866,7 +921,6 @@ footer p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 225px;
   font-size: 14px;
   line-height: 1.8;
 }
@@ -919,9 +973,10 @@ footer p {
 }
 
 .container-section-map {
-  height: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
+  margin-top:80px;
 }
 
 .container-section-chart {
@@ -1197,9 +1252,53 @@ img {vertical-align: middle;}
   transition: background 0.2s ease-in-out;
 }
 
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: #fff;
+}
+
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #0563bb;
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /*--------------------------------------------------------------
 # Preloader
---------------------------------------------------------------*/
+
 #preloader, #preloader>img {
   position: fixed;
   top: 0;
@@ -1243,3 +1342,5 @@ img {vertical-align: middle;}
     transform: rotate(360deg);
   }
 }
+
+--------------------------------------------------------------*/
