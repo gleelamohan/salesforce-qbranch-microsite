@@ -976,7 +976,6 @@ footer p {
   height: 100vh;
   display: flex;
   align-items: center;
-  margin-top:80px;
 }
 
 .container-section-chart {
@@ -1015,11 +1014,11 @@ footer p {
 }
 
 .section_center{
-	width:70%;
+	width:100%;
 	text-align: center;
 	margin: 0 auto;
-	display: inline-block;
-    margin: 0 auto;
+  display: inline-block;
+  padding: 0px 150px;
 }
 
 .section_center_win{
