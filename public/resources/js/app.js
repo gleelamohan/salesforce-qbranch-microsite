@@ -409,4 +409,19 @@ $(document).ready(function () {
 			icon.removeClass('ion-close-round');
 		}
 	});
+
+	$(".teamup").on("click",function () {
+
+		$(".teamup-cls").css("display", "none");
+		var cls= $(this).attr("id");
+		$("."+cls).css("display", "block");
+		$(".teamup").css({
+			'transform' : "scale(1)",
+			'margin-left': "0px"
+		});
+		$(this).css({
+			'transform' : "scale(1.3)",
+			'margin-left': "13px"
+		});
+	});
 });
