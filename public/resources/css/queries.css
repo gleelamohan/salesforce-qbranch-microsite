@@ -472,29 +472,10 @@
 
 	/* ------ FOOT PRINTS -------------- */
 
-	.fc-left3 {
-		margin-right: 19%;
+	#footprint-container{
+		display: none;
 	}
-
-	.fc-right3 {
-		margin-left: 19%;
-	}
-
-	.fc-left2 {
-		margin-right: 22%;
-	}
-
-	.fc-right2 {
-		margin-left: 22%;
-	}
-
-	.fc-left1 {
-		margin-right: 22%;
-	}
-
-	.fc-right1 {
-		margin-left: 22%;
-	}
+	
 	.section-footprints {
 		height: 100vh;
 		background-color: #0c1a3d;
@@ -506,20 +487,14 @@
 
 	.footprint-container {
 		display: flex;
-		justify-content: center;
-		align-items: center;
 		color: white;
 		font-size: 100%;
 		height: 80px;
+		justify-content: space-evenly;
+    align-items: center;
 	}
 
-	.footprint-right {
-		margin-left: 25px;
-	}
-
-	.footprint-left {
-		margin-right: 25px;
-	}
+	
 	.footprint-details li {
 		list-style: none;
 		font-size: 70%;
@@ -575,7 +550,7 @@
 	}
 
 	.footprint {
-		width: 90px;
+		width: 100px;
 	}
 
 	.footprint img,

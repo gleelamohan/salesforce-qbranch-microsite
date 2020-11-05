@@ -201,6 +201,8 @@ body {
 		text-align: center;
 	}
 
+	
+
 	.group-mobile {
 		display: none;
 		position: absolute;
@@ -533,7 +535,9 @@ body {
 	}
 
 	/* ------ FOOT PRINTS -------------- */
-
+	#footprint-container-mobile{
+		display: none;
+	}
 	.fc-left3 {
 		margin-right: 19%;
 	}
