@@ -357,6 +357,9 @@ body {
 	/* TEAM */
 	/* ----------------------------------------------- */
 
+	#team-content-mobile{
+		display:none;
+	}
 	.section-team {
 		padding: 80px 0px;
 		margin-bottom: 20px;

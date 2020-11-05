@@ -398,7 +398,7 @@
 		float: left;
 	}
 
-	.image-gallery-container ul li .bg-image {
+	.image-gallery-container .bg-image {
 		margin: 15px;
 		width: 80px;
 		height: 120px;
@@ -472,6 +472,9 @@
 
 	/* ------ FOOT PRINTS -------------- */
 
+	#team-content{
+		display:none;
+	}
 	#footprint-container{
 		display: none;
 	}
