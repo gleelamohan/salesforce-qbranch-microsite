@@ -338,6 +338,18 @@ $(document).ready(function () {
 		});
 	});
 
+	$('.bg-image1').on('mouseleave', function (e) {
+		$('#hiddenDiv').css({
+			display: 'none',
+		});
+
+		$('.bg-image1').css({
+			filter: 'grayscale(100%)',
+			transform: 'scale(1)',
+		});
+	});
+	
+
 	$('.section-footprints').waypoint(function() {
 		if($('#footprint-container div').size() === 0){
 		addFootPrintContent();
@@ -350,7 +362,7 @@ $(document).ready(function () {
 	
 	});
 
-	$('.bg-image').on('mouseover', function (e) {
+	$('.bg-image, .bg-image1' ).on('mouseover', function (e) {
 		$(this).css({
 			filter: 'grayscale(0%)',
 			transform: 'scale(2)',
@@ -433,10 +445,13 @@ $(document).ready(function () {
 				break;
 		}
 
+		var cls = $(this).attr('class');
+
+		
 		$('#hiddenDiv')
 			.css({
 				position: 'absolute',
-				left: e.pageX,
+				left: cls == 'bg-image'? e.pageX: 100,
 				top: e.pageY + 100,
 				display: 'block',
 			})
