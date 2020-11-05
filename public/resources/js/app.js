@@ -1,8 +1,6 @@
 if ( navigator.userAgent.match( /(android|iphone)/gi ) ) {
 	if ( 'orientation' in screen ) {
-			let locOrientation = screen.lockOrientation || screen.mozLockOrientation || screen.msLockOrientation || screen.orientation.lock;
-			alert(locOrientation);
-			locOrientation('portrait');
+		window.ScreenOrientation.lock("portrait")
 			alert( '// API supported, yeah!' , locOrientation);
 			console.log( 'new orientation is ', screen.orientation );
 			//screen.lockOrientation( 'landscape' );
