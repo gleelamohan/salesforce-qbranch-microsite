@@ -1,6 +1,18 @@
 $(document).ready(function () {
 
-	ScreenOrientation.lock('portrait');
+	if ( navigator.userAgent.match( /(android|iphone)/gi ) ) {
+    if ( 'orientation' in screen ) {
+        let locOrientation = screen.lockOrientation || screen.mozLockOrientation || screen.msLockOrientation || screen.orientation.lock;
+				locOrientation('landscape');
+        console.log( '// API supported, yeah!' , locOrientation);
+        console.log( 'new orientation is ', screen.orientation );
+        //screen.lockOrientation( 'landscape' );
+    } else {
+        console.log( '// API not supported ' );
+    }
+} else {
+    //alert('none');
+}
 	$(window).on('load', function() {
     if ($('#preloader').length) {
       $('#preloader').delay(100).fadeOut('slow', function() {
