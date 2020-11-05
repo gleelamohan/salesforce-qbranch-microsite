@@ -4,11 +4,11 @@ $(document).ready(function () {
     if ( 'orientation' in screen ) {
         let locOrientation = screen.lockOrientation || screen.mozLockOrientation || screen.msLockOrientation || screen.orientation.lock;
 				locOrientation('landscape');
-        console.log( '// API supported, yeah!' , locOrientation);
+        alert( '// API supported, yeah!' , locOrientation);
         console.log( 'new orientation is ', screen.orientation );
         //screen.lockOrientation( 'landscape' );
     } else {
-        console.log( '// API not supported ' );
+       alert( '// API not supported ' );
     }
 } else {
     //alert('none');
