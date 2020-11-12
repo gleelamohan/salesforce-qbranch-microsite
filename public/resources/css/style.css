@@ -1380,6 +1380,43 @@ body {
 		display: -ms-flexbox !important;
 		display: flex !important;
 	}
+
+	.survey-row{
+		margin-top:40px;
+		padding:50px;
+	}
+
+	.survey-col1{
+		text-align:center;
+		padding-top:100px;
+	}
+
+	.survey-col1 img{
+		height:100%;
+		width:70%;
+		object-fit:contain;
+	}
+
+	.survey-col2{
+		text-align:center;
+	}
+	.survey-col2 img{
+		height:70%;
+		width:70%;
+		object-fit:contain;
+	}
+
+	.teamup{
+		padding:5px;
+		height:80px;
+		width:80px;
+		object-fit:contain;
+	}
+
+	#teamup1{
+		transform:scale(1.3);
+		margin-left:13px;
+	}
 }
 
 /*--------------------------------------------------------------
