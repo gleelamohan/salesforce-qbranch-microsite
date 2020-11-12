@@ -783,9 +783,6 @@
 		width: 90% !important;
 	}
 
-	#impact-img  img {
-		width: 90% !important;
-	}
 
 	/* ---------------END OF DEMO COMPONENTS --------- */
 	/*--------- MAP AND METRICS -----------*/
@@ -1445,7 +1442,7 @@
 
 }
 
-@media (min-width:551px) and (max-width:1023px) {
+@media (min-width:451px) and (max-width:1023px) {
 
 	
   /* -------------------------------- */
@@ -2158,10 +2155,6 @@
 		width: 90% !important;
 	}
 
-	#impact-img  img {
-		width: 90% !important;
-	}
-
 	/* ---------------END OF DEMO COMPONENTS --------- */
 	/*--------- MAP AND METRICS -----------*/
 
@@ -2815,7 +2808,12 @@
 	}
 
 	#impact-img{
-    padding-top:50px;
+		padding-top:50px;
+		text-align: center;
+	}
+
+	#impact-img img{
+		width:500px;
 	}
 
 }
