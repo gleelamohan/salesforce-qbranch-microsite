@@ -107,6 +107,13 @@ body {
 	/* REUSABLE COMPONENTS */
 	/* -------------------------------- */
 
+	.agile-mobile{
+		display:none;
+	}
+	.tab-img-mobile{
+		display: none;
+	}
+
 	.row {
 		max-width: 1640px;
 		padding: 0 20px;

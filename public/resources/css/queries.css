@@ -71,7 +71,13 @@
 }
 
 @media screen and (orientation:portrait)  {
+	.tab-img-desktop{
+		display:none;
+	}
 
+	.path-desktop{
+		display: none;
+	}
 	
   /* -------------------------------- */
 	/* REUSABLE COMPONENTS */
@@ -709,7 +715,7 @@
 	}
 
 	.inner-tab {
-		width: 200px;
+		width: 90px;
 		padding: 20px;
 		text-align: center;
 		font-size: 80%;
@@ -719,7 +725,11 @@
 		cursor: pointer;
 	}
 
+	.tab-img-desktop{
+		display:none;
+	}
 	.tab-detail {
+		height:600px !important;
 		border: 1px solid #0b1a3d;
 		text-align: center;
 		background-color: #ffff;
@@ -1449,7 +1459,12 @@
 
 @media (min-width:451px) and (max-width:1023px) {
 
-	
+		.agile-mobile{
+		display:none;
+	}
+	.tab-img-mobile{
+		display: none;
+	}
   /* -------------------------------- */
 	/* REUSABLE COMPONENTS */
 	/* -------------------------------- */
