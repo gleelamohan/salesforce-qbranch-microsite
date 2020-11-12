@@ -1437,7 +1437,12 @@
 	}
 
 	#impact-img{
-    padding-top:50px;
+		padding-top:50px;
+		text-align:center;
+	}
+
+	#impact-img img{
+    width:500px;
 	}
 
 }
