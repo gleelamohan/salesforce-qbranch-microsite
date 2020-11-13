@@ -1457,13 +1457,17 @@
 
 }
 
-@media (min-width:451px) and (max-width:1023px) {
+@media (min-width:751px) and (max-width:1023px) {
 
 		.agile-mobile{
 		display:none;
 	}
 	.tab-img-mobile{
 		display: none;
+	}
+
+	.tab-img-desktop{
+		display:block;
 	}
   /* -------------------------------- */
 	/* REUSABLE COMPONENTS */
